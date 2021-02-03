@@ -38,12 +38,23 @@ header {
 body {
   background-color: #181928;
 }
-#footer {
+
+.vcontacts{
+		text-align:center;
+		font-family: VisitorTT;
+}
+
+.sochub{
+	width: 75%;
+	display: flex;
+	margin: auto;
+}
+
+footer {
     position: static; 
     left: 0; bottom: 0; 
-    padding: 35px; 
     background: #1e1924; 
-    color: #fff;  
+    color: #464057;  
    }
    .fig {
     text-align: center; 
@@ -95,7 +106,7 @@ font-family: PixelOperatorMonoSC;
 	  font-size: 56px;
   }
   .home-wrapper-content-fix-foot{
-	  width: 1110px;
+	  width: 75%;
 	  margin: auto;
   }
   
@@ -123,4 +134,11 @@ font-family: PixelOperatorMonoSC;
 	  margin-top: 0px;
     margin-bottom: 0px;	  
   }
+  
+ .wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+} 
   
