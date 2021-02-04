@@ -42,6 +42,17 @@ body {
 .vcontacts{
 		text-align:center;
 		font-family: VisitorTT;
+		margin-bottom: 5px;
+}
+
+.email{
+	text-align:center;
+		font-family: PixelOperatorMonoSC;
+		color: white;
+		margin-top: 0px;
+		font-size: 20px;
+		margin-bottom: 5px;
+	
 }
 
 .sochub{
